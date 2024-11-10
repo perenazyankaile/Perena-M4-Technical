@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Layout 1</title>
+<style type="text/css">
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#logo-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+#nav-div {
+    width: 100%;
+    min-height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 0%;
+    margin-bottom: 10px;
+    word-spacing: 10px;
+}
+
+#header-banner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 0%;
+}
+
+#main-div {
+    width: 100%;
+}
+
+#sidebar-div {
+    width: 20%;
+    min-height: 400px;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 282px;
+}
+
+#body-area-div {
+    width: 75%;
+    min-height: 748px;
+
+    background-color: lightgray;
+    float: right;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#footer-div {
+    width: 100%;
+    min-height: 20px;
+    background-color: lightgray;
+    text-align: left;
+    line-height: 30px;
+    
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
+.shoename {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.shoeinfo {
+    font-family: Verdana;
+    font-size: 10px;
+}
+
+.footerlogo {
+    width: 250px;
+    height: auto;
+}
+
+.mainlogo {
+    width: 200px;
+    height: auto;
+}
+
+.headersize {
+    width: 100%;
+}
+
+</style>
+</head>
+<body>
+    <div id="logo-div">
+        <img src="LOGO.png" class="mainlogo">
+    </div>
+
+    <div id="header-banner-div">
+        <img src="HEADER.png" class="headersize">
+     </div>
+     
+    <div id="nav-div">
+        <a href="www.google.com"> Webpage1</a>
+        <a href="www.google.com"> Webpage2</a>
+        <a href="www.google.com"> Webpage3</a>
+        <a href="www.google.com"> Webpage4</a>
+        <a href="www.google.com"> Webpage5</a>
+    </div>
+
+
+    <div id="main-div"> 
+        <div id="sidebar-div">
+            <a href="www.google.com"> Sidebar1</a>
+            <br>
+            <a href="www.google.com"> Sidebar2</a> 
+            <br>
+            <a href="www.google.com"> Sidebar3</a> 
+            <br>
+            <a href="www.google.com"> Sidebar4</a> 
+            <br>
+            <a href="www.google.com"> Sidebar5</a>  
+        </div>
+        <div id="body-area-div">
+            <img src="shoe1.jpg">
+            <p class="shoeinfo"> The Nike Jordan 1s was the first Jordan shoe in Michael Jordans groundbreaking signature line, and paved the way for the many coveted player collaborations we see today. Perhaps the most pivotal shoe in sneaker history, today the OG High is a grail for collectors worldwide.</p>
+            <img src="shoe2.jpeg">
+            <p class="shoeinfo"> With Peter Moores 1987 departure, Nike almost lost its biggest hoops star—until revolutionary designer Tinker Hatfield stepped in. The Air Jordan 3, Hatfields first Jordan shoe design, is credited with keeping MJ at Nike.</p>
+            <img src="shoe3.jpeg">
+            <p class="shoeinfo"> Hatfield’s second Air Jordan model, the Air Jordan 4 debuted in 1989 in 4 OG colorways. Combining striking aesthetics with unique performance-enhancing features, the Nike Jordan 4 sneaker stands out for its triangular support wings and breathable over-molded mesh paneling.</p>
+            <img src="shoe4.jpeg">
+            <p class="shoeinfo"> For the Air Jordan 5, Tinker Hatfield took design cues from the P-51 Mustang fighter jet, an American-made plane used by Allied forces in World War II. The Air Jordan 5’s aggressive Mustang-inspired silhouette embodies Jordan’s dominant on-court style</p>
+            <img src="shoe5.jpeg">
+            <p class="shoeinfo"> The Nike Air Jordan 11 has the distinction of being the favorite sneaker of MJ himself. Released in 1995, the iconic Jordan shoes made NBA history during Michael Jordan's legendary 72-10 season</p>
+        </div>
+<div id ="footer-div" class="clearfix">
+<img src="LOGO.png" class="footerlogo">
+<p>Zyan Pereña</p>
+<p>itszyanp@gmail.com</p>
+</div>
+</body>
+</html>
